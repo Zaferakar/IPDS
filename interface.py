@@ -953,14 +953,14 @@ class App(customtkinter.CTk):
                                                     ax1.plot(tahmin_koordinat_x,
                                                              string_deger_liste.index(tahmin_koordinat_y), marker="o",
                                                              markersize=12, markerfacecolor='green',
-                                                             markeredgecolor="white",label="Estimation of AKAR Algorithm")  # Prediction result
+                                                             markeredgecolor="white",label="Prediction of AKAR Algorithm")  # Prediction result
                                                     ax1.legend()
 
 
                                                 else:
                                                     ax1.plot(tahmin_koordinat_x, tahmin_koordinat_y, marker="o",
                                                              markersize=12, markerfacecolor='green',
-                                                             markeredgecolor="white",label="Estimation of AKAR Algorithm")
+                                                             markeredgecolor="white",label="Prediction of AKAR Algorithm")
                                                     ax1.legend()
 
 
@@ -968,13 +968,13 @@ class App(customtkinter.CTk):
                                                     ax1.plot(tahmin_koordinat_x1,
                                                              string_deger_liste.index(tahmin_koordinat_y1), marker="o",
                                                              markersize=12, markerfacecolor='red',
-                                                             markeredgecolor="white",label="Estimation of AKAR Algorithm")  # Prediction result
+                                                             markeredgecolor="white",label="Prediction of AKAR Algorithm")  # Prediction result
                                                     ax1.legend()
 
 
                                                 else:
                                                     ax1.plot(tahmin_koordinat_x1, tahmin_koordinat_y1, marker="o",
-                                                             markersize=12, markerfacecolor='red', markeredgecolor="white",label="Estimation of AKAR Algorithm")
+                                                             markersize=12, markerfacecolor='red', markeredgecolor="white",label="Prediction of AKAR Algorithm")
                                                     ax1.legend()
 
                                             except:
@@ -985,13 +985,13 @@ class App(customtkinter.CTk):
                                                     ax1.plot(tahmin_koordinat_x2,
                                                              string_deger_liste.index(tahmin_koordinat_y2), marker="o",
                                                              markersize=12, markerfacecolor='green',
-                                                             markeredgecolor="white",label="Estimation of AKAR Algorithm")  # Prediction result
+                                                             markeredgecolor="white",label="Prediction of AKAR Algorithm")  # Prediction result
                                                     ax1.legend()
 
                                                 else:
                                                     ax1.plot(tahmin_koordinat_x2, tahmin_koordinat_y2, marker="o",
                                                              markersize=12, markerfacecolor='green',
-                                                             markeredgecolor="white",label="Estimation of AKAR Algorithm")
+                                                             markeredgecolor="white",label="Prediction of AKAR Algorithm")
                                                     ax1.legend()
 
                                             periyot = 0
@@ -1034,7 +1034,7 @@ class App(customtkinter.CTk):
                                 threading.Thread(target=kontrol,args=str(satir)).start()
 
                             #Prediction start key
-                        self.cikarim_baslatma_buton = customtkinter.CTkButton(self.cikarim_veri_giris,corner_radius=8, width=84, fg_color="green",height=60,text="Start\nExtraction",command=lambda gecici_klasor_degisken = gorsel_klasor,gorsel = gorsel_ismi: threading.Thread(target=cikarim_model_liste_kontrol,args=(secili_model_listesi,gecici_klasor_degisken,gorsel,satir,)).start())
+                        self.cikarim_baslatma_buton = customtkinter.CTkButton(self.cikarim_veri_giris,corner_radius=8, width=94, fg_color="green",height=60,text="Start\nPrediction",command=lambda gecici_klasor_degisken = gorsel_klasor,gorsel = gorsel_ismi: threading.Thread(target=cikarim_model_liste_kontrol,args=(secili_model_listesi,gecici_klasor_degisken,gorsel,satir,)).start())
                         self.cikarim_baslatma_buton.grid(row=satir, column=2, pady=2)
 
                     def secili_model_ekleme():
