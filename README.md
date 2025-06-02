@@ -16,7 +16,8 @@ The shape of the container in which the culture will be grown depends on the use
 Training and Inference Algorithms:
 In the Excel file, time-dependent RGB mapping is performed. The created map is used as the trained model. With RGB mapping, the AKAR algorithm, Random Forest Regression Model and Artificial Neural Networks are fed with the same model and the trainings are repeated. After the trainings are repeated, the prediction phase is performed directly. Only the RGB map is kept locally, the models obtained with repeated trainings before inference are not recorded. The models are trained again for each prediction.
 The AKAR algorithm detects the closest image on the trained model for phenotype detection and scores it with weighted scoring by performing similarity detection between the two images.
-In addition, maps can be compared for a holistic examination of different behaviors of different organisms.
+In addition, maps can be compared for a holistic examination of different behaviors of different ![görüntü kayıt cihazıeng](https://github.com/user-attachments/assets/2d95bdab-e899-48c4-af25-8f629d494d89)
+organisms.
 The AKAR algorithm can be trained with both numerical and verbal data sets. While the Random Forest Regression Model is trained only with numerical data, Artificial Neural Networks are trained only with verbal data. Random Forest Regression model and Artificial Neural Networks are integrated into the system to obtain supportive prediction results.
 
 The obtained inference results are presented to the user on the graphic and numerical data interface.
