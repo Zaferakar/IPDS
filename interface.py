@@ -273,45 +273,45 @@ class App(customtkinter.CTk):
                                                      fg_color="grey", text="")
                 self.cubuk8.grid(row=23, column=0, pady=20)
 
-                self.foto1 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"a.png"),size=(760,300))
+                self.foto1 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"a.png"),size=(760,300))
                 self.foto_label1 = customtkinter.CTkLabel(master=self.kaydirilabiliralan,image=self.foto1,text="",corner_radius=8)
                 self.foto_label1.grid(row=1,column=0,pady=5)
 
-                self.foto2 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"b.png"),
+                self.foto2 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"b.png"),
                                                    size=(760, 350))
                 self.foto_label2 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto2,text="")
                 self.foto_label2.grid(row=4, column=0,pady=5)
 
-                self.foto3 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"c.png"),
+                self.foto3 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"c.png"),
                                                    size=(760, 180))
                 self.foto_label3 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto3,text="")
                 self.foto_label3.grid(row=7, column=0)
 
-                self.foto4 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"d.png"),
+                self.foto4 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"d.png"),
                                                     size=(760, 180))
                 self.foto_label4 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto4, text="")
                 self.foto_label4.grid(row=10, column=0)
 
                 self.foto5 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"e.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"e.png"),
                     size=(760, 180))
                 self.foto_label5 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto5, text="")
                 self.foto_label5.grid(row=13, column=0)
 
                 self.foto6 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"f.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"f.png"),
                     size=(760, 180))
                 self.foto_label6 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto6, text="")
                 self.foto_label6.grid(row=16, column=0)
 
                 self.foto7 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"g.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"g.png"),
                     size=(760, 180))
                 self.foto_label7 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto7, text="")
                 self.foto_label7.grid(row=19, column=0)
 
                 self.foto8 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"h.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"h.png"),
                     size=(760, 280))
                 self.foto_label8 = customtkinter.CTkLabel(master=self.kaydirilabiliralan, image=self.foto8, text="")
                 self.foto_label8.grid(row=22, column=0)
@@ -620,24 +620,24 @@ class App(customtkinter.CTk):
                                                      fg_color="grey", text="")
                 self.cubuk5.grid(row=14, column=0, pady=20)
 
-                self.foto2 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"i.png"),
+                self.foto2 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"i.png"),
                                                     size=(760, 440))
                 self.foto_label2 = customtkinter.CTkLabel(master=self.kaydirilabiliralan1, image=self.foto2, text="")
                 self.foto_label2.grid(row=4, column=0, pady=5)
 
-                self.foto3 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("photos")/"j.png"),
+                self.foto3 = customtkinter.CTkImage(light_image=Image.open(Path(__file__).with_name("images")/"j.png"),
                                                     size=(760, 400))
                 self.foto_label3 = customtkinter.CTkLabel(master=self.kaydirilabiliralan1, image=self.foto3, text="")
                 self.foto_label3.grid(row=7, column=0)
 
                 self.foto4 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"k.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"k.png"),
                     size=(760, 450))
                 self.foto_label4 = customtkinter.CTkLabel(master=self.kaydirilabiliralan1, image=self.foto4, text="")
                 self.foto_label4.grid(row=10, column=0)
 
                 self.foto5 = customtkinter.CTkImage(
-                    light_image=Image.open(Path(__file__).with_name("photos")/"l.png"),
+                    light_image=Image.open(Path(__file__).with_name("images")/"l.png"),
                     size=(760, 260))
                 self.foto_label5 = customtkinter.CTkLabel(master=self.kaydirilabiliralan1, image=self.foto5, text="")
                 self.foto_label5.grid(row=13, column=0)
@@ -1096,7 +1096,7 @@ class App(customtkinter.CTk):
                         self.cikarim_baslat_label.grid(row=numara + 2, column=3, pady=2)
 
                         self.foto11 = customtkinter.CTkImage(
-                            light_image=Image.open(Path(__file__).with_name("photos")/"m.png"), size=(25,110))
+                            light_image=Image.open(Path(__file__).with_name("images")/"m.png"), size=(25,110))
 
                         self.cikarim_baslat_kontrol = customtkinter.CTkLabel(self.cikarim_veri_giris , text="",image=self.foto11,
                                                                            corner_radius=8, fg_color="DarkOrange2",height=130,width=30)
