@@ -1,0 +1,14 @@
+customtkinter==5.2.2
+mplcyberpunk==0.7.5
+matplotlib==3.9.2
+openpyxl==3.1.5
+numpy==1.26.4
+tkinterhtml==0.7
+natsort==8.4.0
+CTkMessagebox==2.7
+pillow==10.3.0
+scipy==1.14.1
+mathutils==3.3.0
+plotly==6.0.0
+pywebview==5.4
+XlsxWriter==3.2.0
