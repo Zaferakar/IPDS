@@ -1,5 +1,5 @@
-# IBPDSSC
-IMAGE-BASED PHENOTYPE DETERMINATION SYSTEM IN SUSPENSION CULTURES
+# PCSCC
+PHENOTYPIC CHARACTERIZATION IN SUSPENSION CELL CULTURES USING IMAGE-BASED SYSTEMS
 
 This project includes a box design and source code for phenotype diagnosis and status assessment using images of suspension cultures.
 Quality controls (contamination, amount and speed of recombinant protein production, production efficiency, other abnormal behaviors, etc.) of suspension cultures, which are frequently used in commercial and R&D areas, can be detected only with images after model training without requiring analysis. In this way, diagnosis can be performed quickly and safely without external intervention in the culture environment, by eliminating contamination risks and stress factors.
