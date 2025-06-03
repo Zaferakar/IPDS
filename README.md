@@ -1,4 +1,4 @@
-# IBPDSSCC
+# IPDS
 IMAGE-BASED PHENOTYPE DETECTION SYSTEM IN SUSPENSION CELL CULTURES
 
 This project includes a box design and source code for phenotype diagnosis and status assessment using images of suspension cultures.
