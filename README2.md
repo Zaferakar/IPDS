@@ -9,7 +9,7 @@ Mapping is performed in the RGB color space by detecting particle count and colo
 
 Representation of Mie and Rayleigh Scattering:
 
-<img width="1728" height="443" alt="Ekran Görüntüsü - 2025-08-18 00-06-46" src="https://github.com/user-attachments/assets/71aa18e8-f9b8-4d06-b801-7007b5201c10" />
+<img width="1152" height="295" alt="Ekran Görüntüsü - 2025-08-18 00-06-46" src="https://github.com/user-attachments/assets/71aa18e8-f9b8-4d06-b801-7007b5201c10" />
 
 Suspension Culture Container Selection:
 
@@ -25,7 +25,7 @@ Creating Image and Measurement Dataset Structures:
 
 The resulting images are collected in a separate folder for each magenta. The collected images are numbered and sorted. An Excel file named "data.xlsx" is created in the same location as the collected images within the folder. The resulting measurement data is processed into the Excel file. When entering data into the Excel file, row 1 is used for the label name, and the column containing the label name is used for entering the measurement data. Each image is sorted by its sequence number, corresponding to the value (row number + 1) in the Excel file, and the resulting sequence is used as a timeline. If there is no measurement data for the image, the corresponding row is left blank. Each column represents a separate measurement dataset and is entered independently. This prevents the columns from interfering with each other during training.
 
-<img width="1262" height="932" alt="Ekran Görüntüsü - 2025-08-17 23-06-57" src="https://github.com/user-attachments/assets/fc8b352b-d78a-4a4f-bf5a-05fb3c46e3b6" />
+<img width="841" height="621" alt="Ekran Görüntüsü - 2025-08-17 23-06-57" src="https://github.com/user-attachments/assets/fc8b352b-d78a-4a4f-bf5a-05fb3c46e3b6" />
 
 
 Creating the Training Algorithm:
@@ -43,14 +43,14 @@ Combining Trained Models with Time-Coherence in Mind:
 
 To combine trained models in time-coherence, the trained models must contain an equal number of images, and the starting point of the suspension cultures must be under the same conditions. Regardless of the similarity of the control points between the combined models, the arithmetic average is calculated based solely on the Z-score of the timeline and the control points. After the control points are combined, the intermediate values are recalculated.
 
-<img width="1021" height="669" alt="modelbirlestir" src="https://github.com/user-attachments/assets/8268c36f-e7fe-4d4f-ab6f-6263708244d7" />
+<img width="680" height="446" alt="modelbirlestir" src="https://github.com/user-attachments/assets/8268c36f-e7fe-4d4f-ab6f-6263708244d7" />
 
 
 Merging Trained Models Without Considering Time Consistency:
 
 A separate algorithm was designed to merge trained models without considering time concurrency. This algorithm aims to merge models that lack the same control points. The control points that show the most similarity between the main model and the secondary models are merged, regardless of the timeline. The data flow is designed to be unidirectional, from the secondary models to the main model. The closest coordinates and measurement data are merged by taking their arithmetic averages. Updated control points and measurement data are written to a separate model, and the calculation of intermediate values is repeated. A distance threshold option was added before model merging. This threshold prevents the merging of dissimilar values, even if the closest control point is found on the model, and thus creating an incorrect model.
 
-<img width="861" height="801" alt="modelbirlestir2" src="https://github.com/user-attachments/assets/9755ee86-9cf2-4666-95a9-34dee7aaa341" />
+<img width="574" height="534" alt="modelbirlestir2" src="https://github.com/user-attachments/assets/9755ee86-9cf2-4666-95a9-34dee7aaa341" />
 
 Inference Algorithms Used:
 
