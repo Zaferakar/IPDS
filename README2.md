@@ -19,7 +19,7 @@ Creating the Recording Environment for Capturing Images:
 
 A closed box setup was designed to capture images and block general light from the outside environment. In addition to blocking external light, fixed recording parameters were used during the recording process. The white balance was set to 5200, the ISO to 50, the aperture to 1.75, the lens focal length to 5.96, and the shutter speed to 1/80, and all images were fixed at these settings to be recorded with the same recording device. A household LED bulb with a power output of 6500K, 8400lm, a power output of 9W, a size of 60 × 108mm, and a beam angle of 220° was used as the light source. The dark area was created by lining the inside of a square magenta box-sized cardboard box with black fabric. An opening was created by cutting out an area the size of the area to be scanned to align with the suspension culture. The detailed design of the recording environment is shown in the image below.
 
-![Recorder](https://github.com/user-attachments/assets/d21e8cbc-b9f2-456f-912f-a2eaed9bd30f)
+<img width="544" height="479" alt="Ekran Görüntüsü - 2025-08-18 00-29-48" src="https://github.com/user-attachments/assets/4fae2bbc-338c-440c-a585-fcd2a2951ae3" />
 
 Creating Image and Measurement Dataset Structures:
 
@@ -69,6 +69,8 @@ The input layer size was set to 3 and the hidden layer size to 5 neurons. The ou
 3D Mapping for Model Comparisons:
 
 Similarities and differences between the behaviors of the models and the measurement data contained within them are visualized using a 3D mapping method for holistic comparison. The 3D map is designed to be interactive, and the measurement data is plotted on coordinates. Each model is labeled with a random color, providing visual differentiation between the models.
+
+<img width="526" height="459" alt="Ekran Görüntüsü - 2025-08-18 00-30-05" src="https://github.com/user-attachments/assets/b743ea0f-0119-4ccf-a07f-519f14a6577b" />
 
 Inference Results:
 
