@@ -84,7 +84,7 @@ Similarities and differences between the behaviors of the models and the measure
 
 Inference Results:
 
-The average total accuracy of inferences performed with the Minimum Distance and Weighted Scoring-Based Inference Algorithm was 97.24%, the average total accuracy of inferences performed with Random Forest Regression was 94.22%, and the average percentage accuracy of inferences performed with Artificial Neural Networks was 47.06%.
+The average total accuracy of inferences performed with the Minimum Distance and Weighted Scoring-Based Inference Algorithm was 97.24%, the average total accuracy of inferences performed with Random Forest Regression was 94.22%, and the average percentage accuracy of inferences performed with Artificial Neural Networks was 47.06%. In contamination detection inferences, the earliest detection occurred in the suspension culture contaminated with F.oxysporum at the 12th hour, while the latest detection occurred in the suspension culture contaminated with saliva at the 24th hour.
 
 Inference and Training:
 
