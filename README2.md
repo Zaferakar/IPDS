@@ -92,6 +92,7 @@ For inference and training, simply run the interface.py file. Documentation is a
 
 Sample Datasets:
 
-Alfalfa, Agrobacterium tumefaciens, and Escherichia coli suspension cultures, as well as Alfalfa contamination datasets, will be released soon.
+Alfalfa, Agrobacterium tumefaciens and Escherichia coli suspension cultures and Alfalfa contamination data sets can be downloaded from the specified link.
+https://drive.google.com/file/d/147-hQcvpombNkDTl4U1DCqpfd88ormGk/view?usp=sharing
 
 
