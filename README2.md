@@ -11,9 +11,15 @@ Representation of Mie and Rayleigh Scattering:
 
 <img width="1728" height="443" alt="Ekran Görüntüsü - 2025-08-18 00-06-46" src="https://github.com/user-attachments/assets/71aa18e8-f9b8-4d06-b801-7007b5201c10" />
 
+Suspension Culture Container Selection:
+
+The shape of the container in which the culture will be grown depends on the user's wishes, but the vessel should be transparent and the type of container used in the training data and inference data should be the same. Otherwise, incorrect estimation results will occur because the path (depth) traveled by the light will increase.
+
 Creating the Recording Environment for Capturing Images:
 
 A closed box setup was designed to capture images and block general light from the outside environment. In addition to blocking external light, fixed recording parameters were used during the recording process. The white balance was set to 5200, the ISO to 50, the aperture to 1.75, the lens focal length to 5.96, and the shutter speed to 1/80, and all images were fixed at these settings to be recorded with the same recording device. A household LED bulb with a power output of 6500K, 8400lm, a power output of 9W, a size of 60 × 108mm, and a beam angle of 220° was used as the light source. The dark area was created by lining the inside of a square magenta box-sized cardboard box with black fabric. An opening was created by cutting out an area the size of the area to be scanned to align with the suspension culture. The detailed design of the recording environment is shown in the image below.
+
+![Recorder](https://github.com/user-attachments/assets/d21e8cbc-b9f2-456f-912f-a2eaed9bd30f)
 
 Creating Image and Measurement Dataset Structures:
 
