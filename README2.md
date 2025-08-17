@@ -1,4 +1,8 @@
 # IPDS
+IMAGE-BASED PHENOTYPE DETECTION SYSTEM IN SUSPENSION CELL CULTURES
+
+This project includes a box design and source code for phenotype diagnosis and status assessment using images of suspension cultures. Quality controls (contamination, amount and speed of recombinant protein production, production efficiency, other abnormal behaviors, etc.) of suspension cultures, which are frequently used in commercial and R&D areas, can be detected only with images after model training without requiring analysis. In this way, diagnosis can be performed quickly and safely without external intervention in the culture environment, by eliminating contamination risks and stress factors.
+
 Working Principle:
 
 Mapping is performed in the RGB color space by detecting particle count and color changes over time in suspension cultures (Mie and Rayleigh scattering changes). The recorded maps are used for inference.
@@ -6,8 +10,6 @@ Mapping is performed in the RGB color space by detecting particle count and colo
 Representation of Mie and Rayleigh Scattering:
 
 <img width="1728" height="443" alt="Ekran Görüntüsü - 2025-08-18 00-06-46" src="https://github.com/user-attachments/assets/71aa18e8-f9b8-4d06-b801-7007b5201c10" />
-
-
 
 Creating the Recording Environment for Capturing Images:
 
