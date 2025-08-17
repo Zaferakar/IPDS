@@ -1,0 +1,11 @@
+Working Principle:
+Mapping is performed in the RGB color space by detecting particle count and color changes over time in suspension cultures (Mie and Rayleigh scattering changes). The recorded maps are used for inference.
+
+Creating the Recording Environment for Capturing Images:
+A closed box setup was designed to capture images and block general light from the outside environment. In addition to blocking external light, fixed recording parameters were used during the recording process. The white balance was set to 5200, the ISO to 50, the aperture to 1.75, the lens focal length to 5.96, and the shutter speed to 1/80, and all images were fixed at these settings to be recorded with the same recording device. A household LED bulb with a power output of 6500K, 8400lm, a power output of 9W, a size of 60 × 108mm, and a beam angle of 220° was used as the light source. The dark area was created by lining the inside of a square magenta box-sized cardboard box with black fabric. An opening was created by cutting out an area the size of the area to be scanned to align with the suspension culture. The detailed design of the recording environment is shown in the image below.
+
+Creating Image and Measurement Dataset Structures:
+The resulting images are collected in a separate folder for each magenta. The collected images are numbered and sorted. An Excel file named "data.xlsx" is created in the same location as the collected images within the folder. The resulting measurement data is processed into the Excel file. When entering data into the Excel file, row 1 is used for the label name, and the column containing the label name is used for entering the measurement data. Each image is sorted by its sequence number, corresponding to the value (row number + 1) in the Excel file, and the resulting sequence is used as a timeline. If there is no measurement data for the image, the corresponding row is left blank. Each column represents a separate measurement dataset and is entered independently. This prevents the columns from interfering with each other during training.
+
+/home/zafer/Masaüstü/Ekran Görüntüsü - 2025-08-17 23-06-57.png
+  
