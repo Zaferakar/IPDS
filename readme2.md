@@ -6,5 +6,4 @@ A closed box setup was designed to capture images and block general light from t
 
 Creating Image and Measurement Dataset Structures:
 The resulting images are collected in a separate folder for each magenta. The collected images are numbered and sorted. An Excel file named "data.xlsx" is created in the same location as the collected images within the folder. The resulting measurement data is processed into the Excel file. When entering data into the Excel file, row 1 is used for the label name, and the column containing the label name is used for entering the measurement data. Each image is sorted by its sequence number, corresponding to the value (row number + 1) in the Excel file, and the resulting sequence is used as a timeline. If there is no measurement data for the image, the corresponding row is left blank. Each column represents a separate measurement dataset and is entered independently. This prevents the columns from interfering with each other during training.
-
-  
+<img width="1262" height="932" alt="Ekran Görüntüsü - 2025-08-17 23-06-57" src="https://github.com/user-attachments/assets/fc8b352b-d78a-4a4f-bf5a-05fb3c46e3b6" />
